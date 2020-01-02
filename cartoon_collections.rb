@@ -6,8 +6,11 @@ end
 
 roll_call_dwarves(dwarves)
 
-def summon_captain_planet# code an argument here
-  # Your code here
+
+planeteer_calls = %w[earth wind fire water heart]
+
+def summon_captain_planet(planeteer_calls)# code an argument here
+  planeteer_calls.map { |call| call.capitalize + '!' }# Your code here
 end
 
 def long_planeteer_calls# code an argument here
